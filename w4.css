@@ -1,0 +1,264 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.menu{
+    height: 31px;
+    background-color: #55415f; 
+    
+}
+.menu .text{
+    display: flex;
+    justify-content: flex-end;
+    font-size: 14px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-right: 23px;
+    align-items: center ;
+    height: 31px;
+}
+.menu .text a {
+    color: white;
+    text-decoration: none;
+}
+.menu .text a:hover{
+    color: pink;
+}
+.menu .text1{
+    border-right: 1px solid white;
+    padding-right: 10px;
+    margin-right: 10px;
+    
+   
+}
+.menu .text2{
+    border-right: 1px solid white;
+    padding-right: 10px;
+    margin-right: 10px;
+}  
+.menu .text3{
+    border-right: 1px solid white;
+    padding-right: 10px;
+    margin-right: 10px;
+}
+.menu .text4{
+    
+}
+/*het phan 1 nhaaaaaaaaaaaaaaaaaaaaa*/
+.menu2{
+    display: flex;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    justify-content: space-between;
+    height: 140px;
+    align-items: center;
+}
+.menu2 .namep{
+    height: 97px;
+    margin: 30px 0 0 50px;
+}
+.menu2 .namep .to{
+    font-size: 40px;
+    
+}
+.menu2 .namep .nho{
+    color: #999999;
+}
+.menu2 ul{
+    list-style: none;
+    display: flex;
+    font-size: 18px;
+    
+
+    
+}
+.menu2 ul li{
+    margin-right: 20px;
+    height: 30px;
+    
+    
+}
+.menu2 ul li hr{
+    opacity: 0;
+}
+.menu2 ul li a{
+    text-decoration: none;
+    margin: 3px 0 ;
+    color: #333333;
+}
+.menu2 ul li:hover hr{
+    opacity: 1;
+}
+/* het p2
+ */
+ .p3{
+     position: relative;
+     height: 500px;
+     background-color: #ebebeb;
+     display: flex  ;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ }
+ .p3 .pic{
+     margin-left:50px ;
+ }
+ .p3 .phai{
+     margin: 80px 0px 0 200px;
+ }
+ .p3 .text{}
+ .p3 .text .line1{
+     font-size: 50px;
+ }
+ .p3 .text .line2{
+    color: #999999;
+    width: 280px;
+    margin-top: 20px;
+ }
+ .p3 .readmore {
+     width: 185px;
+     height: 45px;
+     background-color: #55415f;
+     font-size: 25px;
+     
+     text-align: center;
+     margin-top: 20px;
+     border-radius: 10px;
+     line-height:45px;
+ }
+ .p3 .readmore a {
+     color: white;
+     text-decoration: none;
+ }
+/* hp3 */
+.icon {
+    width: 1250px;
+    justify-content: space-between;
+    display: flex;
+    font-size: 30px;
+    position: absolute;
+    top: 580px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: white;
+}
+.divto{
+    height: 420px;
+}
+.divto .tren {
+    display: flex;
+    justify-content: space-around;
+    width: 1300px;
+    margin:0 0 0 30px; 
+    position: absolute;
+    top:610px;
+    background-color: #fff;
+    
+    
+}
+.divto .tren .item1{
+    width: 170px; 
+    height: 175px;   
+    text-align: center;
+
+}
+.divto .item1 .vuong1{
+    width: 50px;
+    height: 50px;
+    background-color: #000000;
+    color: white;
+    font-size: 13px;
+    margin: auto;
+    line-height:50px ;
+    margin-bottom: 10px;
+}
+.divto .item1 .s{
+    margin-bottom: 10px;
+    color: #55415f ;
+}
+
+.divto .texts{
+    margin-top: 200px;
+    font-weight: bold;
+    text-align: center;
+    width: 1000px;
+    margin-left: 165px;
+    font-size: 17px;
+    height: 80px;
+    color: #807d77;
+}
+.divto .duoi{
+    display: flex;
+    justify-content: space-around;
+    
+    
+}
+.divto .duoi .item2{
+    width: 225px;
+}
+.divto .duoi .item2 .vuong2{
+    width: 225px;
+    height: 140px;
+    background-color: #353535;
+    color: white;
+    text-align: center;
+    line-height:140px ;
+    margin-top: 15px;
+}
+.divto .duoi .item2 .tec{
+    color:#7f7d79 ;
+    font-size: 18px;
+}
+.divto .duoi .item2 .tec1{
+    color: #807d77;
+    text-align:start;
+    margin-top: 15px;
+}
+.divto .duoi .item2 .readmores{
+    color: #55415f;
+    margin-top: 15px;
+}
+/*end  */
+.end{
+    background-color:#222222;
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid gray ;
+    
+}
+.end .c1 {
+    text-align: start;
+    width: 225px;
+   padding: 25px 0 0 25px;
+   color: #807d7c;
+}
+.end  .td{
+    font-size: 24px;
+    color: white;
+    
+    
+}
+.end .c2 {
+    padding-top: 25px;
+
+}
+.end .c2 .nhap {
+    display: block;
+}
+.end .c2 .submit{
+    width: 70px;
+    height: 25px;
+    background-color: #9f81a9;
+    
+    margin-top: 15px;
+    border-radius: 5px;
+    text-align: center;
+}
+.end .c2 .submit a{
+    color: white;
+    text-decoration: none;
+}
+.huhu {
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    background-color: #202020;
+    color: #807d7c;
+    padding: 25px 50px 0 50px;
+}
